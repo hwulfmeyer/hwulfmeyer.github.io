@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal website and blog of Hans-Martin Wulfmeyer.
   Machine Learning, Data Science, Data Mining, Android Development, Software Engineering, Computer Science M.Sc. Student
 github_username: hwulfmeyer
-minimal_mistakes_skin: air
+minimal_mistakes_skin: default
 search: true
 
 # Build settings
