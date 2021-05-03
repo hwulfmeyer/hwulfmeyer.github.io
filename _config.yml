@@ -83,10 +83,11 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -94,7 +95,6 @@ defaults:
       path: "_pages"
       type: pages
     values:
-      show_date: true
       layout: single
       author_profile: true
 
