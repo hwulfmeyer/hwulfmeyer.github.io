@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Hans-Martin Wulfmeyer"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.jpeg"
   bio    : "CS Master Student @ OvgU Magdeburg; Doing Machine Learning, Data Mining, Android Development, Software Engineering"
   links:
     - label: "Email"
