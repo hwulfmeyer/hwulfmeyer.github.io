@@ -17,7 +17,7 @@ title: Hans-Martin Wulfmeyer
 email: mail@hwulfmeyer.de
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website and blog of Hans-Martin Wulfmeyer.
-  Machine Learning, Data Mining, Android Development, Software Engineering, Computer Science M.Sc. Student
+  Machine Learning, Data Science, Data Mining, Android Development, Software Engineering, Computer Science M.Sc. Student
 github_username: hwulfmeyer
 minimal_mistakes_skin: default
 search: true
@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Hans-Martin Wulfmeyer"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Machine Learning, Data Mining, Android Development, Software Engineering, Computer Science M.Sc. Student"
+  bio    : "Machine Learning, Data Science, Data Mining, Android Development, Software Engineering, Computer Science M.Sc. Student"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
