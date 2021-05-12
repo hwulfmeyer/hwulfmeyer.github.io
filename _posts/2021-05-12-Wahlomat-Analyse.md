@@ -6,10 +6,12 @@ tags:
   - Wahlomat
   - Wahl-o-Mat
   - Landtagswahl
+  - Wahlen
   - Visualisierung
   - Analyse
   - Daten
   - Clustering
+  - Machine Learning
   - PCA
 ---
 
