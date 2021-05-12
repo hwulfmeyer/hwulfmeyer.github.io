@@ -52,9 +52,11 @@ Ein etwas anderes Verfahren ist dann PCA, kurz für Principal Component Analysis
 <img src="https://user-images.githubusercontent.com/9419801/118012575-8335dc00-b351-11eb-8949-3692d9d85f99.png" alt="pca_1" width="300"/>
 
 Thesen die hier sehr weit oben oder unten zu finden sind sorgen also eher dafür, dass durch diese die Parteien in verschiedene Cluster aufgeteilt werden können. In der Mitte befinden sich Thesen in denen sich viele Parteien eher einig sind. Als Beispiele kann These 1. genommen werden, für die fast alle Parteien mit "Ja" abgestimmt haben.
-Wenn nun mehrere Komponenten miteinander analysiert werden dann kann ausgerechnet werden, inwiefern die Komponenten die Varianz in den Daten erklären können.
+Wenn nun mehrere Komponenten miteinander analysiert werden dann kann ausgerechnet werden, inwiefern die Komponenten die Varianz in den Daten erklären können. Dies wiederum einzeln und in Kombination miteinander (Kumulativ).
 
+<img src="https://user-images.githubusercontent.com/9419801/118014592-abbed580-b353-11eb-9bc3-3acd514985d5.png" alt="pca_variance" width="300"/>
 
+Mit der ersten Komponenten können also schon ca. 32% der Varianz der Daten erklärt werden, was ziemlich viel ist.
 
 ### Fazit
 Die Cluster und die Nähe der Parteien sollten etwas kritisch betrachtet werden, weil die qualität der Thesen des Wahlomats oft keine gute Aufteilung der Parteien zulassen. 
