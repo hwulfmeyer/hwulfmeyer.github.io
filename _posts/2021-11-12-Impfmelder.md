@@ -19,7 +19,7 @@ tags:
 
 Anfang dieses Jahres startete die große Impfkampagne gegen Corona in Deutschland. Ich machte mir zu dem Zeitpunkt noch keinen großen Kopf über das Impfen, 
 weil es zu der Zeit nur für die ältere Bevölkerung (70+) freigegeben war. Im Frühjahr 2021 kam ich der ganzen Materie näher,
-als sich Familienmitglieder die älter als 60 waren oder Vorerkrankungen besaßen auch Impfen lassen konnte. Die Terminbuchung erfolgte über eine sehr simple
+als sich Familienmitglieder die älter als 60 waren oder Vorerkrankungen besaßen auch Impfen lassen konnten. Die Terminbuchung erfolgte über eine sehr simple
 Website mit einem Buchungssystem. Hier ein paar Impressionen davon:
 
 
