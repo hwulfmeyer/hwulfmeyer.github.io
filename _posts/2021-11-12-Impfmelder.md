@@ -46,9 +46,9 @@ alle Daten der verfügbaren Termine und vieles mehr. Über sehr einfache HTTP re
 Diese Information musste ich nur irgendwie an die Leute bringen. Eine Möglichkeit wäre über [Web Push Notifications](https://support.mozilla.org/en-US/kb/push-notifications-firefox).
 Das erschien mir dann doch eher als unpraktikabel. Und so lenkte sich mein Blick Richtung des Telegram Messengers. Telegram erfreute sich seit Anfang des Jahres 2021
 erhöhter Beliebtheit, weil Whatsapp die  [Nutzungsbedingungen geändert hatte](https://www.heise.de/news/WhatsApp-aendert-Nutzungsbedingungen-Daten-werden-mit-Facebook-geteilt-5005893.html), was dem Messenger erlaubte Daten mit Facebook zu teilen.
-Außerdem besitzt Telegram eine Channelfunktion, in denen der Besitzer anonym Nachrichten verschicken und das auch bequem von einem selbst programmierten Bot übernommen werden lassen kann. Der Plan stand, jetzt fehlte nur noch die Umsetzung.
+Außerdem besitzt Telegram eine Channelfunktion, eine Art Nachrichtenkanal in denen nur der Besitzer anonym Nachrichten verschicken und das auch bequem von einem selbst programmierten Bot übernommen werden lassen kann. Der Plan stand, jetzt fehlte nur noch die Umsetzung.
 
-Ich entschied ich mich für Python, weil ich wusste, dass dort alles was ich für Umsetzung brauchte vorhanden war. Die Programmierung gestaltet sich als sehr einfach. An einem produktiven Abend und innerhalb weniger Stunden war ein automatisierter
+Ich entschied mich für Python, weil ich wusste, dass dort alles was ich für Umsetzung brauchte vorhanden war. Die Programmierung gestaltet sich als sehr einfach. An einem produktiven Abend und innerhalb weniger Stunden war ein automatisierter
 Melder für Impftermine fertig.
 
 Der interessierte Leser kann den Programmcode hier einsehen: https://github.com/hwulfmeyer/ImpfmelderMagdeburg/blob/master/impfungen.py
