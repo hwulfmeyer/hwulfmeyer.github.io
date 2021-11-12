@@ -19,17 +19,17 @@ tags:
 
 Anfang dieses Jahres startete die große Impfkampagne gegen Corona in Deutschland. Ich machte mir zu dem Zeitpunkt noch keinen großen Kopf über das Impfen, 
 weil es zu der Zeit nur für die ältere Bevölkerung (70+) freigegeben war. Im Frühjahr 2021 kam ich der ganzen Materie näher,
-als sich Familienmitglieder die älter als 60 waren oder Vorerkrankungen besaßen auch Impfen lassen konnten. Die Terminbuchung erfolgte über eine sehr simple
+als sich Familienmitglieder die älter als 60 waren oder Vorerkrankungen besaßen auch Impfen lassen konnten. Die Terminbuchung erfolgt über eine sehr simple
 Website mit einem Buchungssystem. Hier ein paar Impressionen davon:
 
 
 <img src="https://user-images.githubusercontent.com/9419801/141386628-a5322d8c-e943-4bb0-a77d-5f0dae5ee652.PNG" alt="buchen" width="300"/>
 
-Mit einem Klick auf "Buchen" für den jeweiligen Standort wurde dann auf einen Kalender mit der Auswahl des Termins weitergeleitet.
+Mit einem Klick auf "Buchen" für den jeweiligen Standort wird dann auf einen Kalender mit der Auswahl des Termins weitergeleitet.
 
 <img src="https://user-images.githubusercontent.com/9419801/141386636-1d8e74ba-aa5c-4d7f-9f9c-e86227904558.PNG" alt="kalender" width="300"/>
 
-Danach mussten noch die Kontaktdaten mit der E-Mail Adresse hinterlegt werden und der Termin war gebucht.
+Danach müssen noch die Kontaktdaten mit der E-Mail Adresse hinterlegt werden und der Termin ist gebucht.
 
 Darüber erfuhr ich zirka im März 2021 in einem Telefonat mit meinem Vater, der mir berichtete, dass er immer Abends bis 24Uhr am Laptop saß und versuchte einen Termin zu ergattern.
 Anders war das gar nicht möglich.
