@@ -73,7 +73,7 @@ Ein paar Updates später und ein stabiles System stand zur Verfügung, welches i
 
 ### Statistiken
 
-Den Impfmelder habe ich zuerst intern getestet, damit ich sicherstellen konnte, dass die Meldungen zuverlässig sind. Weil ich von der Buchungswebsite abhängig war, ging es auch nur darüber. Ich musste also warten, bis wieder Termine frei waren und das dauerte. Ein paar Tage und Tests später und der Melder konnte endlich frei zur Verfügung gestellt werden. Das war ca. am 5. April 2021. Über einen einfachen Link kann dem Channel beigetreten werden: https://t.me/MagdeburgImpfmelder
+Den Impfmelder habe ich zuerst intern getestet, damit ich sicherstellen konnte, dass die Meldungen zuverlässig sind. Weil ich von der Buchungswebsite abhängig war, ging es auch nur darüber. Ich musste also warten bis wieder Termine frei waren und das dauerte. Ein paar Tage und Tests später und der Melder konnte endlich frei zur Verfügung gestellt werden. Das war ca. am 5. April 2021. Über einen einfachen Link kann dem Channel beigetreten werden: https://t.me/MagdeburgImpfmelder
 
 Den Einladungslink habe ich bekannten und Freunden geschickt und in größeren Gruppen in denen ich war geteilt. Über Mundpropaganda verbreitete sich das recht schnell, sodass immer mehr Nutzer dem Channel beitraten und sich schon bald exponentielles Wachstum einstellte.
 
@@ -104,6 +104,6 @@ Termine und Impfstoffe existieren gerade zu Genüge und jeder der will bekommt a
 Den Terminmelder werde ich trotzdem weiter laufen lassen, so kostet es mich ja auch gar nichts das zu machen.
 
 Ein positiver Effekt des Melders außer der Benachrichtung ist vermutlich auch, dass kurzfristig frei gewordene Termine wieder schnell belegt werden konnten und Menschen auch frühzeitig darüber informiert wurden, wann Termine frei waren.
-So konnte ich hiermit wohl erreichen, dass die Impfzentren in ihrer vollen Kapazität ausgelastet wurden und kaum vergeugete Termine vorhanden waren.
+So konnte ich hiermit wohl erreichen, dass die Impfzentren in ihrer vollen Kapazität ausgelastet wurden und kaum vergeudete Termine vorhanden waren.
 
 Allgemein freue ich mich darüber, dass ich mit meinem Terminmelder einen positiven Beitrag leisten konnte und wohl vielen Menschen bei der Terminfindung geholfen habe. 
