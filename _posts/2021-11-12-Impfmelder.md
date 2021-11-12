@@ -40,7 +40,7 @@ dass das Ganze einfacher gehen müsste. Und somit machte ich mich an die Aufgabe
 ### Umsetzung
 
 Eine einfache Analyse der Website mittels der [Firefox Tools für Webentwickler](https://developer.mozilla.org/de/docs/Tools) zeigte mir, 
-dass die Betreiber des Dienstes eine relativ offene API benutzten. Über diese API konnte man auf alle nützlichen Daten zugreifen, freie Termine,
+dass die Betreiber des Dienstes eine relativ offene API benutzten. Über diese API konnte auf alle nützlichen Daten zugegriffen werden. Freie Termine,
 alle Daten der verfügbaren Termine und vieles mehr. Über sehr einfache HTTP requests konnte also herausgefunden werden ob gerade Termine frei sind.
 
 Diese Information musste ich nur irgendwie an die Leute bringen. Ich dachte über eine Website mit [Web Push Notifications](https://support.mozilla.org/en-US/kb/push-notifications-firefox) nach.
