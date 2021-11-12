@@ -43,13 +43,12 @@ Eine einfache Analyse der Website mittels der [Firefox Tools für Webentwickler]
 dass die Betreiber des Dienstes eine relativ offene API benutzten. Über diese API konnte auf alle nützlichen Daten zugegriffen werden. Freie Termine,
 alle Daten der verfügbaren Termine und vieles mehr. Über sehr einfache HTTP requests konnte also herausgefunden werden ob gerade Termine frei sind.
 
-Diese Information musste ich nur irgendwie an die Leute bringen. Ich dachte über eine Website mit [Web Push Notifications](https://support.mozilla.org/en-US/kb/push-notifications-firefox) nach.
-Das erschien mir dann doch eher als unpraktikabel. Und so lenkte sich mein Blick richtung des Telegram Messengers. Telegram erfreute sich seit Anfang des Jahres
+Diese Information musste ich nur irgendwie an die Leute bringen. Eine Möglichkeit wäre über [Web Push Notifications](https://support.mozilla.org/en-US/kb/push-notifications-firefox).
+Das erschien mir dann doch eher als unpraktikabel. Und so lenkte sich mein Blick Richtung des Telegram Messengers. Telegram erfreute sich seit Anfang des Jahres 2021
 erhöhter Beliebtheit, weil Whatsapp die  [Nutzungsbedingungen geändert hatte](https://www.heise.de/news/WhatsApp-aendert-Nutzungsbedingungen-Daten-werden-mit-Facebook-geteilt-5005893.html), was dem Messenger erlaubte Daten mit Facebook zu teilen.
-Außerdem hat Telegram eine Channelfunktion, in denen der Besitzer anonym Nachrichten verschicken und dies auch bequem von einem selbst programmierten Bot übernommen werden lassen kann. Der Plan stand, jetzt fehlte nur noch die Umsetzung.
+Außerdem besitzt Telegram eine Channelfunktion, in denen der Besitzer anonym Nachrichten verschicken und das auch bequem von einem selbst programmierten Bot übernommen werden lassen kann. Der Plan stand, jetzt fehlte nur noch die Umsetzung.
 
-Ich entschied ich mich für Python, weil ich wusste, dass dort bereits alle Packages zur verfügung gestellt sind die ich für die Umsetzung brauchte.
-Mit Python gestaltete sich die Programmierung außerdem als sehr einfach. An einem produktiven Abend und innerhalb weniger Stunden war ein automatisierter
+Ich entschied ich mich für Python, weil ich wusste, dass dort alles was ich für Umsetzung brauchte vorhanden war. Die Programmierung gestaltet sich als sehr einfach. An einem produktiven Abend und innerhalb weniger Stunden war ein automatisierter
 Melder für Impftermine fertig.
 
 Der interessierte Leser kann den Programmcode hier einsehen: https://github.com/hwulfmeyer/ImpfmelderMagdeburg/blob/master/impfungen.py
@@ -74,7 +73,7 @@ Ein paar Updates später und ein stabiles System stand zur Verfügung, welches i
 
 ### Statistiken
 
-Den Impfmelder wollte ich intern erst einmal Testen, damit ich sicherstellen konnte, dass die Meldungen zuverlässig sind. Weil ich von der Buchungswebsite abhängig war, ging es auch nur darüber. Ich musste also warten, bis wieder Termine frei waren und das dauerte. Ein paar Tage und Tests später und der Melder konnte endlich frei zur Verfügung gestellt werden. Das war am 11. Mai. Über einen einfachen Link kann dem Channel beigetreten werden: https://t.me/MagdeburgImpfmelder
+Den Impfmelder habe ich zuerst intern getestet, damit ich sicherstellen konnte, dass die Meldungen zuverlässig sind. Weil ich von der Buchungswebsite abhängig war, ging es auch nur darüber. Ich musste also warten, bis wieder Termine frei waren und das dauerte. Ein paar Tage und Tests später und der Melder konnte endlich frei zur Verfügung gestellt werden. Das war ca. am 5. April 2021. Über einen einfachen Link kann dem Channel beigetreten werden: https://t.me/MagdeburgImpfmelder
 
 Den Einladungslink habe ich bekannten und Freunden geschickt und in größeren Gruppen in denen ich war geteilt. Über Mundpropaganda verbreitete sich das recht schnell, sodass immer mehr Nutzer dem Channel beitraten und sich schon bald exponentielles Wachstum einstellte.
 
