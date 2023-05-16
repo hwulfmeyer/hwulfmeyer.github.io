@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Hans-Martin Wulfmeyer"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : " M.Sc. in Computer Science, Machine Learning, Data Science, Software Development & Engineering, Human Being"
+  bio    : " M.Sc. in Computer Science; Machine Learning, Data Science, Software Development & Engineering, Human Being"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
