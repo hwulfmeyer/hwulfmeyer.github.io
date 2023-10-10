@@ -19,7 +19,7 @@ Dieses Jahr ist Wahljahr in der Bundesrepublik und so auch für den Landtag in S
 Dafür wurde auch wieder ein [Wahl-O-Mat](https://www.wahl-o-mat.de/sachsenanhalt2021/app/main_app.html) veröffentlicht.
 
 ### Darstellung der Antworten
-Die Antworten der Parteien können auf der Website ausgelesen werden und diese können dann hübsch visualisiert und mittels Clustering oder PCA sogar analyisiert werden. Genau so wurde das schon von D. Kriesel zur letzten Bundestagswahl 2017 veröffentlicht. Siehe Teil 1 [hier](https://www.dkriesel.com/blog/2017/0903_auswertung_des_wahl-o-mats_zu_einer_parteienlandkarte) und Teil 2 [hier](https://www.dkriesel.com/blog/2017/0904_wahl-o-mat-auswertung_teil_2_thesen-_und_parteienverwandtschaften).
+Die Antworten der Parteien können auf der Website ausgelesen werden und diese können dann hübsch visualisiert und mittels Clustering oder PCA sogar analysiert werden. Genau so wurde das schon von D. Kriesel zur letzten Bundestagswahl 2017 veröffentlicht. Siehe Teil 1 [hier](https://www.dkriesel.com/blog/2017/0903_auswertung_des_wahl-o-mats_zu_einer_parteienlandkarte) und Teil 2 [hier](https://www.dkriesel.com/blog/2017/0904_wahl-o-mat-auswertung_teil_2_thesen-_und_parteienverwandtschaften).
 Ich habe mich von ihm inspirieren lassen und habe vor ein paar Wochen selbst damit begonnen so eine Analyse anzufertigen. Das Ergebnis habe ich ebenfalls in einer Clustermap dargestellt.
 
 <img src="https://user-images.githubusercontent.com/9419801/118012930-df98fb80-b351-11eb-84a1-5940b64a0f70.png" alt="clustermap" width="600"/>
@@ -43,25 +43,25 @@ Der nächste Cluster bildet sich aus Die Humanisten, SPD, Die Partei, GRÜNE, Kl
 Interessanter ist der letzte Cluster aus WIR2020, DieBasis, PIRATEN, Tierschutzallianz, Tierschutzpartei, ÖDP und FREIE WÄHLER. Diese Parteien bilden eine Mischung aus verschiedenen politischen Ansichten wie z.B. Linksliberalismus, Grüner Politik und Wertkonservatismus. Oberflächlich betrachtet könnten man diese eher politisch der Mitte zuordnen. Das spiegelt sich auch in dem Antwortverhalten wieder, das linke sowie konservative Themen beinhaltet. Aus dem Dendrogramm ist allerdings auch ersichtlich, dass sich dieser Cluster näher an dem linken Spektrum befindet.  
 Die Partei FBM wurde als einzige keinem größerem Cluster zugeordnet. Erst später in der Hierarchie wird die Partei zu dem großen Cluster der linken und zentrischen Parteien zugeordnet. FBM könnte deshalb wohl auch eher mitte-links eingeordnet werden.
 
-Neben den Clustern für die Parteien existieren auch Cluster für die Thesen. Interessant ist hier, dass bestimmte Antworten auf Themen zusammengehörig zugeordnet werden können. Die oberen Themen werden also eher von konservativen Parteien bejaht, die mittleren Thesen sind wenig differenziert und da herrscht eher ein Konsenz, während die unteren Thesen eher von linken Parteien bejaht werden.
+Neben den Clustern für die Parteien existieren auch Cluster für die Thesen. Interessant ist hier, dass bestimmte Antworten auf Themen zusammengehörig zugeordnet werden können. Die oberen Themen werden also eher von konservativen Parteien bejaht, für mittleren Thesen herrscht eher ein Konsenz, während die unteren Thesen eher von linken Parteien bejaht werden.
 
 ### PCA Analyse
 
-Ein etwas anderes Verfahren ist dann PCA, kurz für Principal Component Analysis, oder auf deutsch Hauptkomponentenanalyse. Diese Methode versucht eine Datenmenge in wenige Komponenten aufzuteilen, ohne das dabei die Bedeutung der Daten verloren geht. Hier wird jeder These ein Wert zugeteilt, woran erkannt werden kann inwiefern welche Thesen eher dafür verantwortlich sind, dass bestimmte Parteienspektren sich unterscheiden. Das ganze ist ein Spektrum ins Negative und Positive und die Extremwerte sind eher von hoher Bedeutung. Hier habe ich das mal für eine Komponente gemacht. Für zwei Komponenten wird das etwas zu unübersichtlich.
+Um herauszufinden bei welchen Thesen eher Uneinigkeit besteht und damit eine bessere Unterscheidung der Parteien bezweckt wird, kann eine Principal Component Analysis (PCA) oder auf deutsch Hauptkomponentenanalyse benutzt werden. Diese Methode versucht eine Datenmenge in wenige Komponenten (Linearkombinationen) aufzuteilen, ohne das dabei die Signifikanz der Daten verloren geht. Jeder These wird dabei ein Dezimalwert zugeteilt. Das ganze ist ein Spektrum ins Negative und Positive und die Extremwerte sind eher von hoher Bedeutung. Hier habe ich das für eine Komponente ausgewertet wodurch eine Eindimensionale-Skala erstellt werden kann. Für mehr als eine Komponente wird die Darstellung zu unübersichtlich.
 
 <img src="https://user-images.githubusercontent.com/9419801/118012575-8335dc00-b351-11eb-8949-3692d9d85f99.png" alt="pca_1" width="300"/>
 
-Thesen die hier sehr weit oben oder unten zu finden sind sorgen eher dafür, dass durch diese die Unterschiede in den Parteien gut beschrieben werden können. In der Mitte (die grünlich gefärbten) befinden sich Thesen in denen sich viele Parteien eher einig sind. Für These 1. haben fast alle Parteien mit "Ja" abgestimmt.  
-Wenn nun mehrere Komponenten miteinander analysiert werden dann kann ausgerechnet werden, wie sehr die Komponenten die Varianz in den Daten erklären kann. Dies wiederum einzeln und in Kombination miteinander (kumulativ).
+Thesen die hier sehr weit oben oder unten zu finden sind sorgen eher dafür, dass durch diese die Unterschiede in den Parteien gut beschrieben werden können. In der Mitte (die grünlich gefärbten) befinden sich Thesen in denen sich viele Parteien eher einig sind. Zum Beispiel haben fast alle Parteien These 1 mit "Ja" beantwortet.  
+Wenn nun mehrere Komponenten miteinander analysiert werden dann ist es möglich auszurechnen wie sehr die Komponenten die Varianz in den Daten erklären können. Dies wiederum einzeln und in Kombination miteinander (kumulativ).
 
 <img src="https://user-images.githubusercontent.com/9419801/118014592-abbed580-b353-11eb-9bc3-3acd514985d5.png" alt="pca_variance" width="300"/>
 
-Mit der ersten Komponenten kann also schon ca. 32% der Varianz der Daten erklärt werden.
+Mit der ersten Komponenten kann also schon ca. 32% der Varianz der Daten erklärt werden. Mit diesen Ergebnissen können Rückschlüsse auf die Qualität der Fragen geworfen werden, oder auch auf die Komplexität der politischen Standpunkte in der deutschen Politik.
 
 ### Fazit
 Die Cluster und die Nähe der Parteien sollten etwas kritisch betrachtet werden, weil die Qualität der Thesen des Wahl-O-Mats oft keine differenzierte Aufteilung der Parteien zulässt. 
 Die Fragen können außerdem als politische Stichprobe der Parteien aufgefasst werden und stellen die Ansichten der Parteien nur abstrakt auf 38 Fragen dar. Die tatsächlichen Wahlprogramme der Parteien sind sehr viel differenzierter und oft mehrere hundert Seiten lang. Wer also die wirklichen politischen Standpunkte der Parteien wissen will, sollte sich die Wahlprogramme zu Gemüte führen, sich die Begründungen auf die Antworten im Wahl-O-Mat durchlesen oder sich das Wahlverhalten der Fraktionen im Landtag oder Bundestag anschauen.
-Ein anderes Problem sind die Antwortmöglichkeiten von "Ja", "Neutral", "Nein". Ein besserer Überblick würde erzielt werden wenn die Antworten in Form des Grads der Zustimmung wären. So etwas wie die [Likert-Skala](https://de.wikipedia.org/wiki/Likert-Skala).
+Ein anderes Problem sind die Antwortmöglichkeiten von "Ja", "Neutral", "Nein". Ein besserer Überblick würde erzielt werden wenn die Antworten in Form des Grads der Zustimmung wären, z.B. so etwas wie die [Likert-Skala](https://de.wikipedia.org/wiki/Likert-Skala).
 
 Letztendlich muss berücksichtigt werden, dass der Wahl-O-Mat nur ein Informationsangebot über Wahlen und Politik ist und keine Wahlempfehlung aussprechen soll.
 
